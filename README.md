@@ -11,13 +11,18 @@ The status is updated every **5** minutes, it's posible to change ``` update_rat
 <img src="screenshot/AppScreen.png" height="200">
 </p>
 
-The app is responsive for the updates and the icon reflects the status. There are several possible states:
-
+The app is responsive for the updates and the icon reflects the status. There are several possible states:  
   
-![](screenshot/status_ok.png) – The GPU is availble
-![](screenshot/status_connection.png) – The App is loading info
-![](screenshot/status_bad.png) – GPU occupied, you have to wait (use force Update in the top right corner, maybe get some tea :)
-![](screenshot/status_bad_conection.png) – Something wrong with connection, definitely use force update
+  
+![](screenshot/status_ok.png) – The GPU is availble  
+![](screenshot/status_connection.png) – The App is loading info  
+![](screenshot/status_bad.png) – GPU occupied, you have to wait (use force Update in the top right corner, maybe get some tea :)  
+![](screenshot/status_bad_conection.png) – Something wrong with connection, definitely use force update  
+
+
+
+## NOTE!  
+In order to receive updates from the server, the remote machine has to support ``` nvidia-smi ```  interface, because information fetching relies on it.
 
 
 
