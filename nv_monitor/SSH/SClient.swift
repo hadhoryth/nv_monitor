@@ -58,16 +58,9 @@ class SCLient{
                     self.GPUList.append(model)
                 }
             }
-//            if outputString.hasPrefix("GeForce"){
-//                print(outputString)
-//                for str in outputString.lines{
-//                    print(str)
-//
-//
-//                }
-//            }else{
+
             self.outputPipe.fileHandleForReading.waitForDataInBackgroundAndNotify()
-//            }
+
         }
         
     }
